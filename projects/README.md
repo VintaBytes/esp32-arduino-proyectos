@@ -1,7 +1,6 @@
 # 001 - WiFi Scan
 
 Escaneo de redes Wi-Fi cercanas usando una placa ESP32 DEVKIT V1 con módulo ESP-WROOM-32.
-
 El proyecto muestra en el Serial Monitor una tabla con las redes encontradas, su intensidad de señal y si la red está abierta o protegida.
 
 ## Objetivo
@@ -121,7 +120,7 @@ Nuevo escaneo en 10 segundos...
 
 | Archivo | Descripción |
 | --- | --- |
-| `wifi_scan.ino` | Sketch principal del proyecto. |
+| `DOIT_ESP32_DEVKIT_V1_05_ESCANNER_WIFI_1.ino` | Sketch principal del proyecto. |
 
 ## Estado del proyecto
 
@@ -129,18 +128,7 @@ Nuevo escaneo en 10 segundos...
 - [x] Funcional
 - [x] Salida tabulada
 - [x] Documentado
-- [ ] Ampliado con más datos de cada red
-- [ ] Reutilizable como módulo auxiliar
 
-## Posibles mejoras
-
-- Mostrar canal de cada red.
-- Mostrar tipo de seguridad con más detalle.
-- Mostrar BSSID/MAC del punto de acceso.
-- Ordenar redes por intensidad de señal.
-- Filtrar redes duplicadas.
-- Mostrar la salida en una pantalla conectada al ESP32.
-- Usar este proyecto como base para un selector de red Wi-Fi.
 
 ## Notas
 
