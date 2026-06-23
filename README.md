@@ -33,7 +33,7 @@ esp32-arduino-proyectos/
 
 | Nº | Proyecto | Descripción | Estado |
 | --: | --- | --- | --- |
-| 001 | [WiFi Scan](DOIT_ESP32_DEVKIT_V1_05_ESCANNER_WIFI_1n) | Escaneo de redes Wi-Fi cercanas desde una placa ESP32 DEVKIT V1 / ESP-WROOM-32, con salida tabulada en el Serial Monitor. | Funcional |
+| 001 | [WiFi Scan](projects/DOIT_ESP32_DEVKIT_V1_05_ESCANNER_WIFI_1) | Escaneo de redes Wi-Fi cercanas desde una placa ESP32 DEVKIT V1 / ESP-WROOM-32, con salida tabulada en el Serial Monitor. | Funcional |
 
 ## Placas utilizadas
 
