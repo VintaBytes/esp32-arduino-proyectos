@@ -1,5 +1,12 @@
 # 001 - WiFi Scan
 
+![Arduino IDE 2](https://img.shields.io/badge/Arduino%20IDE-2.x-00979D?logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-WROOM--32-blue)
+![Board](https://img.shields.io/badge/Board-ESP32%20DEVKIT%20V1-orange)
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
+
 Escaneo de redes Wi-Fi cercanas usando una placa ESP32 DEVKIT V1 con módulo ESP-WROOM-32.
 El proyecto muestra en el Serial Monitor una tabla con las redes encontradas, su intensidad de señal y si la red está abierta o protegida.
 
