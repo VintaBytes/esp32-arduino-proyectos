@@ -4,10 +4,6 @@ Repositorio personal de proyectos y pruebas con placas basadas en ESP32 usando A
 
 El objetivo es reunir ejercicios, experimentos, módulos reutilizables y proyectos completos relacionados con conectividad Wi-Fi, sensores, pantallas, almacenamiento, baterías y dispositivos interactivos.
 
-## Descripción breve para GitHub
-
-Proyectos y pruebas con placas ESP32 usando Arduino IDE 2: Wi-Fi, sensores, pantallas, configuración y módulos reutilizables.
-
 ## Contenido del repositorio (en construcción)
 
 ```text
