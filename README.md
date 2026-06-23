@@ -4,11 +4,36 @@ Repositorio personal de proyectos y pruebas con placas basadas en ESP32 usando A
 
 El objetivo es reunir ejercicios, experimentos, módulos reutilizables y proyectos completos relacionados con conectividad Wi-Fi, sensores, pantallas, almacenamiento, baterías y dispositivos interactivos.
 
+## Descripción breve para GitHub
+
+Proyectos y pruebas con placas ESP32 usando Arduino IDE 2: Wi-Fi, sensores, pantallas, configuración y módulos reutilizables.
+
+## Contenido del repositorio
+
+```text
+esp32-arduino-proyectos/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── docs/
+│   ├── instalacion-arduino-ide.md
+│   ├── librerias.md
+│   ├── notas-tecnicas.md
+│   └── placas.md
+├── projects/
+│   └── 001-wifi-scan/
+│       ├── README.md
+│       └── wifi_scan/
+│           └── wifi_scan.ino
+└── assets/
+    └── README.md
+```
+
 ## Proyectos
 
 | Nº | Proyecto | Descripción | Estado |
 | --: | --- | --- | --- |
-| 001 | [WiFi Scan](projects/DOIT_ESP32_DEVKIT_V1_05_ESCANNER_WIFI_1/) | Escaneo de redes Wi-Fi cercanas desde una placa ESP32 DEVKIT V1 / ESP-WROOM-32, con salida tabulada en el Serial Monitor. | Funcional |
+| 001 | [WiFi Scan](projects/001-wifi-scan/) | Escaneo de redes Wi-Fi cercanas desde una placa ESP32 DEVKIT V1 / ESP-WROOM-32, con salida tabulada en el Serial Monitor. | Funcional |
 
 ## Placas utilizadas
 
@@ -17,7 +42,7 @@ Por ahora el repositorio incluye pruebas realizadas con:
 - ESP32 DEVKIT V1
 - Módulo ESP-WROOM-32
 
-Más adelante se van a agregar proyectos para otras placas ESP32, ESP32-S3, pantallas táctiles, sensores externos y módulos de alimentación.
+Más adelante se pueden agregar proyectos para otras placas ESP32, ESP32-S3, pantallas táctiles, sensores externos y módulos de alimentación.
 
 ## Entorno de desarrollo
 
@@ -45,6 +70,19 @@ Esto permite abrir el proyecto directamente desde Arduino IDE usando:
 ```text
 File → Open...
 ```
+
+## Manejo de credenciales
+
+Las contraseñas Wi-Fi, claves de API y otros datos sensibles no deben subirse al repositorio.
+
+Este repositorio ignora archivos comunes para credenciales locales, como:
+
+- `arduino_secrets.h`
+- `secrets.h`
+- `config_local.h`
+- `wifi_credentials.h`
+
+Cuando un proyecto necesite credenciales reales, debería incluirse un archivo de ejemplo sin datos privados.
 
 ## Próximos proyectos posibles
 
