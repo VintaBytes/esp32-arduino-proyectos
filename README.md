@@ -8,7 +8,7 @@ El objetivo es reunir ejercicios, experimentos, módulos reutilizables y proyect
 
 Proyectos y pruebas con placas ESP32 usando Arduino IDE 2: Wi-Fi, sensores, pantallas, configuración y módulos reutilizables.
 
-## Contenido del repositorio
+## Contenido del repositorio (en construcción)
 
 ```text
 esp32-arduino-proyectos/
@@ -56,9 +56,9 @@ La configuración general de Arduino IDE está documentada en [`docs/instalacion
 
 ## Organización del código
 
-Cada proyecto vive dentro de `projects/` y tiene su propio `README.md`.
+Cada proyecto de `projects/` tiene su propio `README.md`.
 
-En los proyectos Arduino, la carpeta del sketch y el archivo `.ino` deben tener el mismo nombre. Por ejemplo:
+En los proyectos Arduino, la carpeta del sketch y el archivo `.ino` tienen el mismo nombre. Por ejemplo:
 
 ```text
 wifi_scan/
@@ -71,20 +71,7 @@ Esto permite abrir el proyecto directamente desde Arduino IDE usando:
 File → Open...
 ```
 
-## Manejo de credenciales
-
-Las contraseñas Wi-Fi, claves de API y otros datos sensibles no deben subirse al repositorio.
-
-Este repositorio ignora archivos comunes para credenciales locales, como:
-
-- `arduino_secrets.h`
-- `secrets.h`
-- `config_local.h`
-- `wifi_credentials.h`
-
-Cuando un proyecto necesite credenciales reales, debería incluirse un archivo de ejemplo sin datos privados.
-
-## Próximos proyectos posibles
+## Próximos proyectos
 
 - Conexión a una red Wi-Fi conocida.
 - Portal de configuración Wi-Fi desde el ESP32.
