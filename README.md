@@ -18,7 +18,6 @@ El objetivo es reunir ejercicios, experimentos, módulos reutilizables y proyect
 esp32-arduino-proyectos/
 ├── README.md
 ├── LICENSE
-├── .gitignore
 ├── docs/
 │   ├── instalacion-arduino-ide.md
 │   ├── librerias.md
