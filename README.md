@@ -40,7 +40,7 @@ esp32-arduino-proyectos/
 | 001 | [WiFi Scan](projects/DOIT_ESP32_DEVKIT_V1_05_ESCANNER_WIFI_1) | Escaneo de redes Wi-Fi cercanas desde una placa ESP32 DEVKIT V1 / ESP-WROOM-32, con salida tabulada en el Serial Monitor. | Funcional |
 | 002 | [WiFi Connect](projects/DOIT_ESP32_DEVKIT_V1_06_WIFI_CONNECT) | Conexión a una red Wi-Fi conocida y visualización del estado de red en el Serial Monitor. | Funcional |
 | 003 | [Reloj de Red](projects/DOIT_ESP32_DEVKIT_V1_07_NTP_CLOCK) | Conexión Wi-Fi, diagnóstico DNS y sincronización de fecha y hora mediante NTP desde una placa ESP32 DEVKIT V1 / ESP-WROOM-32. | Funcional |
-
+| 004 | [Servidor Web Local](projects/DOIT_ESP32_DEVKIT_V1_10_WEB_STATUS) | Crea una red Wi-Fi en modo Access Point, permite acceder a una página de estado desde el navegador e intenta sincronizar fecha y hora mediante NTP desde una placa ESP32 DEVKIT V1 / ESP-WROOM-32. | Funcional |
 
 ## Placas utilizadas
 
