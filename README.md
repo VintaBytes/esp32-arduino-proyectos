@@ -45,8 +45,11 @@ esp32-arduino-proyectos/
 
 Por ahora el repositorio incluye pruebas realizadas con:
 
-- ESP32 DEVKIT V1
-- Módulo ESP-WROOM-32
+- ESP32 DEVKIT V1 / ESP-WROOM-32
+
+<p align="center"><img src="./docs/ESP32_DEVKIT_V_ESP_WROOM_32_PINOUT.jpeg"></p>
+
+
 
 Más adelante se pueden agregar proyectos para otras placas ESP32, ESP32-S3, pantallas táctiles, sensores externos y módulos de alimentación.
 
