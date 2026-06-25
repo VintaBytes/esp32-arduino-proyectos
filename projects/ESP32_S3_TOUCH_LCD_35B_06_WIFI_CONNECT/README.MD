@@ -11,6 +11,8 @@ Adaptacion del [proyecto WiFi Connect para la placa Waveshare ESP32-S3 Touch LCD
 
 El proyecto conecta la placa a una red Wi-Fi conocida y muestra los datos de conexion tanto en el Serial Monitor como en la pantalla incorporada.
 
+<p align="center"><img src="https://github.com/VintaBytes/esp32-arduino-proyectos/blob/main/projects/ESP32_S3_TOUCH_LCD_35B_06_WIFI_CONNECT/img1.png></p>
+
 ## Objetivo
 
 Verificar que la placa ESP32-S3 Touch LCD 3.5B pueda conectarse correctamente a una red Wi-Fi desde Arduino IDE 2 y mostrar informacion basica de red en pantalla.
