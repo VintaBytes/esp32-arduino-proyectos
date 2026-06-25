@@ -50,7 +50,9 @@ Por ahora el repositorio incluye pruebas realizadas con:
 
 <p align="center"><img src="./docs/ESP32_DEVKIT_V_ESP_WROOM_32_PINOUT.jpeg"></p>
 
+- ESP32-S3 Touch LCD 3.5B (waveshare)
 
+<p align="center"><img src="./docs/ESP32-S3_Touch_LCD_35Bwaveshare.png"></p>
 
 Más adelante se pueden agregar proyectos para otras placas ESP32, ESP32-S3, pantallas táctiles, sensores externos y módulos de alimentación.
 
