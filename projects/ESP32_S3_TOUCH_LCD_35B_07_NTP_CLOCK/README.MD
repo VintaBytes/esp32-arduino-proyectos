@@ -1,4 +1,4 @@
-# 007 - ESP32-S3 Touch LCD 3.5B - NTP Clock
+# 006 - ESP32-S3 Touch LCD 3.5B - NTP Clock
 
 ![Arduino IDE 2](https://img.shields.io/badge/Arduino%20IDE-2.x-00979D?logo=arduino&logoColor=white)
 ![ESP32-S3](https://img.shields.io/badge/ESP32--S3-blue)
@@ -7,11 +7,13 @@
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-Adaptacion del proyecto NTP Clock para la placa Waveshare ESP32-S3 Touch LCD 3.5B.
+Adaptacion del [proyecto NTP Clock para la placa Waveshare ESP32-S3 Touch LCD 3.5B](https://github.com/VintaBytes/esp32-arduino-proyectos/blob/main/projects/DOIT_ESP32_DEVKIT_V1_07_NTP_CLOCK).
 
 El proyecto conecta la placa a una red Wi-Fi conocida, verifica resolucion DNS, sincroniza fecha y hora mediante NTP y muestra el reloj tanto en el Serial Monitor como en la pantalla incorporada.
 
 En esta version, la conexion Wi-Fi, la configuracion DNS y la sincronizacion NTP se realizan antes de inicializar la pantalla. Este orden resulto necesario en las pruebas con la placa real para evitar fallos de resolucion DNS durante el arranque.
+
+<p align="center"><img src="img1.jpeg"></p>
 
 ## Objetivo
 
