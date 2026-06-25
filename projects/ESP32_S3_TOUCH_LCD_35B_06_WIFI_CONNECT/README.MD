@@ -7,7 +7,7 @@
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-Adaptacion del proyecto WiFi Connect para la placa Waveshare ESP32-S3 Touch LCD 3.5B.
+Adaptacion del [proyecto WiFi Connect para la placa Waveshare ESP32-S3 Touch LCD 3.5B](https://github.com/VintaBytes/esp32-arduino-proyectos/blob/main/projects/DOIT_ESP32_DEVKIT_V1_06_WIFI_CONNECT).
 
 El proyecto conecta la placa a una red Wi-Fi conocida y muestra los datos de conexion tanto en el Serial Monitor como en la pantalla incorporada.
 
@@ -166,10 +166,10 @@ El proyecto muestra:
 * [x] Salida por Serial Monitor
 * [x] Salida por pantalla incorporada
 * [x] Documentado
-* [ ] Compilado en Arduino IDE 2
-* [ ] Probado en placa real
-* [ ] Conexion Wi-Fi validada
-* [ ] Reconexion basica validada
+* [x] Compilado en Arduino IDE 2
+* [x] Probado en placa real
+* [x] Conexion Wi-Fi validada
+* [x] Reconexion basica validada
 
 ## Notas
 
