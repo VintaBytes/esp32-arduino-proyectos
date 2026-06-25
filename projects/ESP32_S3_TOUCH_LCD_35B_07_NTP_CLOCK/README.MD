@@ -13,7 +13,7 @@ El proyecto conecta la placa a una red Wi-Fi conocida, verifica resolucion DNS, 
 
 En esta version, la conexion Wi-Fi, la configuracion DNS y la sincronizacion NTP se realizan antes de inicializar la pantalla. Este orden resulto necesario en las pruebas con la placa real para evitar fallos de resolucion DNS durante el arranque.
 
-<p align="center"><img src="img1.jpeg"></p>
+<p align="center"><img src="img1.jpeg" width="400"></p>
 
 ## Objetivo
 
